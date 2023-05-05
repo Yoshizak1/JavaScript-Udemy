@@ -1,16 +1,11 @@
-let nome = "joão";
-let idade = 28;
+let x = 10;
 
-if(nome != undefined && nome == "joaquim"){
-    console.log("nome está definido");
-} else if(nome == "joão" && nome.length > 3 && idade == 50) {
-    console.log("o nome é joão")
-} else {
-    console.log("Não é João!")
+while(x > 0){
+    console.log("O x é" + x);
+    x = x - 1;
 }
 
-if(1>2){
-    console.log("Teste");
-} else if(1 == 1) {
-    console.log("Testando")
-} 
+while(y <= 10){
+    console.log(y);
+    y = y + 1;
+}
