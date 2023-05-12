@@ -1,5 +1,9 @@
-let frutas = ["maça", "banana", "melão", "melancia", "laranja"];
-
-for(let i = 0; i < frutas.length; i++) {
-    console.log(frutas[i]);
+let pessoa = {
+    "nariz": 1,
+    "boca": 1,
+    "olhos": 2,
+    "orelhas": 2
 }
+
+console.log(pessoa);
+console.log(pessoa.nariz);
